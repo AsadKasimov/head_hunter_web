@@ -1,5 +1,11 @@
+import allure
+
 from hh_ru.model.pages import search_for_employer
 
+
+@allure.parent_suite('Web')
+@allure.suite('Работодатель')
+@allure.title(f"Поиск резюме без парамтров")
 def test_search_resume():
     search_for_employer.open_for_employer()
     search_for_employer.scroll_to_search_zone()
