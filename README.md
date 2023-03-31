@@ -34,7 +34,7 @@
 
 ### <img width="3%" title="Jenkins" src="./resourses/icons/jenkins-logo.svg"> Запуск проекта в Jenkins
 
-### [Job](https://jenkins.autotests.cloud/job/003_python-edbeg1337-head-hunter-pip/)
+#### [Job](https://jenkins.autotests.cloud/job/003_python-edbeg1337-head-hunter-pip/)
 
 ##### При нажатии на "Собрать с параметрами" откроеться окно где надо выбрать тесты которые запустяться через виртуальную машину в Selenide.
 ![This is an image](resourses/icons/jenkins_job.png)
@@ -44,7 +44,7 @@
 <!-- Allure report -->
 
 ### <img width="3%" title="Allure Report" src="./resourses/icons/allure-Report-logo.svg"> Allure report
-
+#### [Отчет в Allure](https://jenkins.autotests.cloud/job/003_python-edbeg1337-head-hunter-pip/14/allure/)
 ##### После прохождения тестов, результаты можно посмотреть в Allure отчете, где так же содержится ссылка на Jenkins
 ![This is an image](resourses/icons/allure1.png)
 
@@ -79,6 +79,7 @@
 <!-- Jira -->
 
 ### <img width="3%" title="Jira" src="./resourses/icons/jira-logo.svg"> Интеграция с Jira
+#### [Задача в JIRA](https://jira.autotests.cloud/browse/HOMEWORK-590)
 ##### Настроив через Allure TestOps интеграцию с Jira, в тикет можно пробросить результат прохождение тестов и список тест-кейсов из Allure
 
 ![This is an image](resourses/icons/alluret3.png)
